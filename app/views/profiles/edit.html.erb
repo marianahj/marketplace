@@ -1,0 +1,22 @@
+<h1>Your Profile</h1>
+<p>Email: <%= current_user.email %></p>
+<%= form_tag profile_path, method: :patch do %>
+  <%= label_tag 'First name:' %>
+  <%= text_field_tag :first_name %>
+  <%= label_tag 'Last name:' %>
+  <%= text_field_tag :last_name %>
+
+  <h2>Your Address</h2>
+  <%= label_tag 'Address:' %>
+  <%= text_field_tag :address_1 %>
+  <%= label_tag 'Address 2:' %>
+  <%= text_field_tag :address_2 %>
+  <%= label_tag 'City' %>
+  <%= text_field_tag :city %>
+  <%= label_tag 'State' %>
+  <%= text_field_tag :state %>
+  <%= label_tag 'Postal Code' %>
+  <%= text_field_tag :postal_code %>
+
+  <%= submit_tag 'Submit' %>
+<% end %>
