@@ -1,12 +1,11 @@
 <h1>Your Profile</h1>
-<%= link_to 'Edit', edit_profile_path(current_user.id) %>
-<p>Email: <%= current_user.email %></p>
-<p>First name: <%= current_user.first_name %></p>
-<p>Last name: <%= current_user.first_name %></p>
+<%= link_to 'Edit', edit_profile_path(@user.id) %>
+<p>Email: <%= @user.email %></p>
+<p>First name: <%= @user.first_name %></p>
+<p>Last name: <%= @user.last_name %></p>
 
 <h2>Your Address</h2>
-<p>Address: </p>
-<p>Address 2: </p>
-<p>City, State, Postal Code</p>
-
+<p>Address: <%= @address.street_1 %></p>
+<p>Address 2: <%= @address.street_2 %></p>
+<p>City: <%= @address.city %>, State: <%= @address.state %>, Postal Code: <%= @address.postal_code %></p>
 
