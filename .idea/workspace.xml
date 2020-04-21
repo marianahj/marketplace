@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7151076e-f904-407b-9865-a6cdb3eb63b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/admin/stores_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/stores_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/store.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/stores/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/stores/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/stores/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/profiles_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/profiles/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/profiles/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587346090132</updated>
-      <workItem from="1587346091624" duration="12871000" />
+      <workItem from="1587346091624" duration="20233000" />
     </task>
     <servers />
   </component>
@@ -155,9 +162,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2305" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1587411675612">
+    <state x="2306" y="271" width="667" height="486" key="find.popup" timestamp="1587507031273">
       <screen x="1680" y="23" width="1920" height="980" />
     </state>
-    <state x="2305" y="240" width="670" height="676" key="search.everywhere.popup/1680.23.1920.980/0.23.1680.1027@1680.23.1920.980" timestamp="1587411675612" />
+    <state x="2306" y="271" width="667" height="486" key="find.popup/1680.23.1920.980/0.23.1680.1027@1680.23.1920.980" timestamp="1587507031273" />
+    <state x="2305" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1587505294779">
+      <screen x="1680" y="23" width="1920" height="980" />
+    </state>
+    <state x="2305" y="240" width="670" height="676" key="search.everywhere.popup/1680.23.1920.980/0.23.1680.1027@1680.23.1920.980" timestamp="1587505294779" />
   </component>
 </project>

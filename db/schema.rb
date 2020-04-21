@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_20_051729) do
+ActiveRecord::Schema.define(version: 2020_04_21_220616) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,12 +47,13 @@ ActiveRecord::Schema.define(version: 2020_04_20_051729) do
     t.string "website"
     t.integer "status"
     t.string "shareable_link"
-    t.integer "category"
+    t.string "category"
     t.string "facebook_url"
     t.string "twitter_url"
     t.string "instagram_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|

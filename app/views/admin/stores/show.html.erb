@@ -1,0 +1,10 @@
+<h1>Your Store: <%= @store.name %></h1>
+<%= link_to 'Edit', edit_admin_store_path(@store.id) %>
+<%= link_to 'Delete', admin_store_path(@store.id), method: :delete %>
+<p>Description: <%= @store.description %></p>
+<p>Website: <%=  @store.website %></p>
+<p>Category: <%= @store.category %></p>
+<p>Status: <%= @store.status_s %></p>
+<p>Facebook URL: <%= @store.facebook_url %></p>
+<p>Twitter URL: <%= @store.twitter_url %></p>
+<p>Instagram URL: <%= @store.instagram_url %></p>

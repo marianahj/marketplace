@@ -1,0 +1,20 @@
+<h1>New Store</h1>
+<%= form_tag admin_stores_path, method: :post do %>
+  <%= label_tag 'Name: ' %>
+  <%= text_field_tag :name %>
+  <%= label_tag 'Description: ' %>
+  <%= text_area_tag :description %>
+  <%= label_tag 'Website: ' %>
+  <%= text_field_tag :website %>
+  <%= label_tag 'Active: ' %>
+  <%= check_box_tag :status, 1, true %>
+  <%= label_tag 'Category: ' %>
+  <%= select_tag :category, options_for_select(@categories) %>
+  <%= label_tag 'Facebook: ' %>
+  <%= text_field_tag :facebook_url %>
+  <%= label_tag 'Twitter: ' %>
+  <%= text_field_tag :twitter_url %>
+  <%= label_tag 'Instagram: ' %>
+  <%= text_field_tag :instagram_url %>
+  <%= button_tag 'Submit' %>
+<% end %>
